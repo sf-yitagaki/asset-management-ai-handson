@@ -19,7 +19,7 @@
 【データソース】
   Marketplace: SNOWFLAKE_PUBLIC_DATA.PUBLIC_DATA
                （Snowflake Public Data (Paid) / (Free) のいずれでも動作します）
-  GitHub:      https://github.com/sfc-gh-kmotokubota/asset-management-ai-handson
+  GitHub:      https://github.com/sf-yitagaki/asset-management-ai-handson
 
 【前提条件】
   ・ACCOUNTADMIN ロールが使えること
@@ -97,13 +97,13 @@ SELECT '【Step 2】データベース・スキーマ・ステージの作成が
 
 CREATE OR REPLACE API INTEGRATION git_api_integration_snow_am
     API_PROVIDER         = git_https_api
-    API_ALLOWED_PREFIXES = ('https://github.com/sfc-gh-kmotokubota/')
+    API_ALLOWED_PREFIXES = ('https://github.com/sf-yitagaki/')
     ENABLED              = TRUE
     COMMENT              = '資産運用向け AI ハンズオン用の GitHub API 統合';
 
 CREATE OR REPLACE GIT REPOSITORY SNOW_AM_HANDSON_REPO
     API_INTEGRATION = git_api_integration_snow_am
-    ORIGIN          = 'https://github.com/sfc-gh-kmotokubota/asset-management-ai-handson.git'
+    ORIGIN          = 'https://github.com/sf-yitagaki/asset-management-ai-handson.git'
     COMMENT         = 'ハンズオン教材リポジトリ';
 
 -- リポジトリの内容を取得する
@@ -569,7 +569,7 @@ SELECT '
 
 【次のステップ】
  1. Workspaces に Git リポジトリを追加する
-    URL: https://github.com/sfc-gh-kmotokubota/asset-management-ai-handson.git
+    URL: https://github.com/sf-yitagaki/asset-management-ai-handson.git
     API integration: git_api_integration_snow_am
 
  2. part1_ai_functions.ipynb を開く

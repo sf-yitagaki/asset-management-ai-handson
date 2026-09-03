@@ -138,7 +138,7 @@ Notebook を実行するために、このリポジトリを Workspace に追加
 
 | 設定項目 | 値 |
 |---|---|
-| Repository URL | `https://github.com/sfc-gh-kmotokubota/asset-management-ai-handson.git` |
+| Repository URL | `https://github.com/sf-yitagaki/asset-management-ai-handson.git` |
 | Workspace name | `asset-management-ai-handson` |
 | API integration | `git_api_integration_snow_am`（`setup.sql` で作成済み） |
 | Authentication | Public repository |
