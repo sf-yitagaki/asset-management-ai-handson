@@ -178,7 +178,7 @@ Notebook を開いたら、右上のウェアハウス選択で **`SNOW_AM_WH`**
                      Snowflake Marketplace
                               │
         ┌─────────────────────┴──────────────────────┐
-        │   SNOWFLAKE_PUBLIC_DATA.PUBLIC_DATA        │
+        │   SNOWFLAKE_PUBLIC_DATA.PUBLIC_DATA_FREE        │
         │   ・STOCK_PRICE_TIMESERIES（縦持ち）        │
         │   ・SEC_REPORT_ATTRIBUTES（XBRL全項目）     │
         │   ・COMPANY_INDEX / FX / TREASURY           │

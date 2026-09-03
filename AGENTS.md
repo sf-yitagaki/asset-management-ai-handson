@@ -69,7 +69,7 @@
 | ディメンション | `DIM_SECURITY`, `DIM_FUND` |
 | ファクト | `FACT_STOCK_PRICE_DAILY`, `FACT_FINANCIAL_METRICS`, `FACT_FX_RATE`, `FACT_TREASURY_YIELD`, `FACT_FUND_HOLDING` |
 | RAW / GOLD | `RAW_*` / `GOLD_*` |
-| Marketplace 参照元 | `SNOWFLAKE_PUBLIC_DATA.PUBLIC_DATA`（固定） |
+| Marketplace 参照元 | `SNOWFLAKE_PUBLIC_DATA.PUBLIC_DATA_FREE`（固定） |
 
 銘柄ユニバース（10銘柄）: `NVDA`, `MSFT`, `AAPL`, `GOOGL`, `AMZN`, `META`, `AVGO`, `TSLA`, `JPM`, `XOM`
 
