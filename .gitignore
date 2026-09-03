@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Snowflake / ローカル設定
+.snowflake/
+*.local.toml
+
+# エディタ
+.vscode/
+.idea/
+
+# ハンズオン説明HTML（リポジトリには含めない）
+20260903-snowflake-ai-handson-step-by-step.html
+design-system/
